@@ -1,0 +1,7 @@
+C:\Users\Saltanat\source\repos\ClassWorkClasses\ClassWorkClasses\bin\Debug\ClassWorkClasses.exe.config
+C:\Users\Saltanat\source\repos\ClassWorkClasses\ClassWorkClasses\bin\Debug\ClassWorkClasses.exe
+C:\Users\Saltanat\source\repos\ClassWorkClasses\ClassWorkClasses\bin\Debug\ClassWorkClasses.pdb
+C:\Users\Saltanat\source\repos\ClassWorkClasses\ClassWorkClasses\obj\Debug\ClassWorkClasses.csprojAssemblyReference.cache
+C:\Users\Saltanat\source\repos\ClassWorkClasses\ClassWorkClasses\obj\Debug\ClassWorkClasses.csproj.CoreCompileInputs.cache
+C:\Users\Saltanat\source\repos\ClassWorkClasses\ClassWorkClasses\obj\Debug\ClassWorkClasses.exe
+C:\Users\Saltanat\source\repos\ClassWorkClasses\ClassWorkClasses\obj\Debug\ClassWorkClasses.pdb
