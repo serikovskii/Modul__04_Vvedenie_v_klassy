@@ -1,0 +1,114 @@
+using System;
+/*using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;*/
+
+/*
+Создать класс Money, разработав следующие элементы класса:
+Поля:
+- Номинал купюры
+- Количество купюр
+Конструктор:
+- Позволяющий создать экземпляр класса с заданными значениям полей
+Методы:
+- Вывести номинал и количество купюр
+- Определить, хватит ли денежных средств на покупку товара на сумму N тенге
+	- Определить, сколько штук товара стоимости n тенге можно купить на имеющиеся денежные средства
+Свойства:
+	- Позволяющее получить-установить значение полей (доступное для чтения и записи)
+	- Позволяющее расчитать сумму денег (доступное только для чтения)
+ 
+*/
+
+
+namespace ClassesLesson
+{
+	
+	public class Money
+    {
+        private int _nominal;
+        private int _count;
+        private int _sumMoney;
+
+        public Money()
+        {
+          
+        }
+
+        public Money(int nominal, int count)
+        {
+            _nominal = nominal;
+            _count = count;
+            
+        }
+
+        public int GetNominal()
+        {
+            return _nominal;
+        }
+
+        public void SetNominal(int nominal)
+        {
+            _nominal = nominal;
+        }
+
+        public int GetCoutn()
+        {
+            return _count;
+        }
+
+        public void SetCount(int count)
+        {
+            _count = count;
+        }
+
+        public int GetSumMoney()
+        {
+            _sumMoney = _nominal * _count;
+            return _sumMoney;
+        }
+
+      
+
+        public bool HowMoneyProduct(int price)
+        {
+
+            if(GetSumMoney()>=price)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public int HowMoneyProducts(int price)
+        {
+            return GetSumMoney() / price;
+           
+        }
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Money money = new Money();
+            money.SetNominal(500);
+            money.SetCount(5);
+            Console.Write("Баланс: ");
+            Console.WriteLine(money.GetSumMoney());
+
+            int price = 1000;
+            Console.Write("Цена товара: ");
+            Console.WriteLine(price);
+            Console.Write("Кол-во товаров: ");
+            if (money.HowMoneyProduct(price))
+            {
+                Console.WriteLine(money.HowMoneyProducts(price));
+            }
+            
+            Console.ReadLine();
+        }
+    }
+   
+}
