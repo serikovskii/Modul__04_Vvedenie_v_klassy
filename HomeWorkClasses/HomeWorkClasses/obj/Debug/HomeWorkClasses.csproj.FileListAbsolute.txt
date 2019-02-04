@@ -1,0 +1,7 @@
+Z:\c#\repo\HomeWorkClasses\HomeWorkClasses\obj\Debug\HomeWorkClasses.csprojAssemblyReference.cache
+Z:\c#\repo\HomeWorkClasses\HomeWorkClasses\obj\Debug\HomeWorkClasses.csproj.CoreCompileInputs.cache
+Z:\c#\repo\HomeWorkClasses\HomeWorkClasses\bin\Debug\HomeWorkClasses.exe.config
+Z:\c#\repo\HomeWorkClasses\HomeWorkClasses\bin\Debug\HomeWorkClasses.exe
+Z:\c#\repo\HomeWorkClasses\HomeWorkClasses\bin\Debug\HomeWorkClasses.pdb
+Z:\c#\repo\HomeWorkClasses\HomeWorkClasses\obj\Debug\HomeWorkClasses.exe
+Z:\c#\repo\HomeWorkClasses\HomeWorkClasses\obj\Debug\HomeWorkClasses.pdb
